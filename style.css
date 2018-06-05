@@ -1,0 +1,53 @@
+body,
+html  {
+	height: 100%;	
+	width: 100%;
+}
+
+body {
+	background: url(lake-lakeside-landscape-976994.jpg) no-repeat; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height: 100%;
+}
+
+header {
+	height: 100%;
+}
+
+h1 {
+	top: 200px;
+	left: 0;
+	width: 100%;
+	color: white;
+	font-family: 'Oswald', sans-serif;
+	padding-bottom: 20px;
+}
+
+span {
+	color: tomato;
+}
+
+.btn {
+	font-weight: 700px;
+	text-transform: uppercase;
+	border-radius: 300px;
+	font-family: 'Oswald', sans-serif;
+}
+
+.btn-xl {
+  padding: 1rem 2rem; 
+}
+
+.btn-dark:hover {
+	background-color: #00408d;
+	cursor: pointer;
+	color: yellow;
+}
+
+.container {
+	margin: auto auto;
+}
+}
